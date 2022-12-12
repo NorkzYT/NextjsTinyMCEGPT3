@@ -29,7 +29,7 @@ export default function Home() {
           onInit={(evt, editor) => {
             editorRef.current = editor;
           }}
-          initialValue={openai_content}
+          initialValue="<p>This is the initial content of the editor.</p>"
           id="TextEditor"
           onChange={log}
           init={{
