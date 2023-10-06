@@ -9,7 +9,7 @@
     "prepare": "node ./postinstall.js"
   },
   "dependencies": {
-    "next": "^12.3.2",
+    "next": "^13.5.4",
     "fs-extra": "^10.1.0",
     "openai-api": "^1.3.1",
     "react": "^18.0.0",
